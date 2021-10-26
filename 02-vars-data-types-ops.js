@@ -315,19 +315,25 @@ console.log(multiLine);
     fName; lName; houseNumber; street; city; state; postCode; and concatentate them together to create your address stamp
 */
 
-honorific = "Mr."
-fName = "Dean"
-lName = "Butz"
-let houseNumber = 5422
-let street = "Meadowood Dr"
-let city = "Speedway"
-let state = "IN"
-let postCode = 46224
+honorific = "Mr.";
+fName = "Dean";
+lName = "Butz";
+let houseNumber = 5422;
+let street = "Meadowood Dr";
+let city = "Speedway";
+let state = "IN";
+let postCode = 46224;
 
-let addressLine1 = `${honorific} ${fName} ${lName}`
-let addressLine2 = `${houseNumber} ${street}`
-let addressLine3 = `${city}, ${state} ${postCode}`
+let addressLine1 = `${honorific} ${fName} ${lName}`;
+let addressLine2 = `${houseNumber} ${street}`;
+let addressLine3 = `${city}, ${state} ${postCode}`;
 
-let addressStamp = `${addressLine1}\n${addressLine2}\n${addressLine3}`
+let addressStamp = `${addressLine1}\n${addressLine2}\n${addressLine3}`;
 
-console.log(addressStamp)
+console.log(addressStamp);
+
+
+// Variables Quiz Question #14
+
+let list = ['item1', 'item2', 'item3'];
+console.log(typeof list);
