@@ -376,3 +376,22 @@ switch (true) {
     default:
         console.log("Error: value more than 100 entered.");
 }
+
+//? or to simplify:
+
+/*let*/ grade = 55;
+switch (true) {
+    case grade > 88 :
+        console.log("You are passing with an A.");
+        break;
+    case grade > 78 :
+        console.log("You are passing with a B.");
+        break;
+    case grade > 65 :
+        console.log("You are passing with a C.");
+        break;
+    case grade > 59 :
+        console.log("You are passing with a D.");
+    default:
+        console.log("You are failing with an F.");
+}
