@@ -22,12 +22,12 @@ let test2 = 1;
 let test3 = null;
 let test4 = undefined;
 let test5 = NaN;
-console.log(Boolean(test));
-console.log(Boolean(test1));
-console.log(Boolean(test2));
-console.log(Boolean(test3));
-console.log(Boolean(test4));
-console.log(Boolean(test5));
+console.log(Boolean(test));  //true
+console.log(Boolean(test1)); //false
+console.log(Boolean(test2)); //true
+console.log(Boolean(test3)); //false
+console.log(Boolean(test4)); //false
+console.log(Boolean(test5)); //false
 
 let light = "on";
 
